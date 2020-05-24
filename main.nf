@@ -27,3 +27,18 @@ process process {
     CLI PROCESS
     """
 }
+
+
+
+/*
+#==============================================
+# TODO quast
+# quay.io/biocontainers/quast:5.0.2--1
+#==============================================
+*/
+
+/*
+   cp ../spades_results/work/ae/4d2677d866d9030d613d882de8b639/210_spades/scaffolds.fasta 210_scaffolds.fasta
+   cp ../spades_results/work/b0/a4240ada1affe5b4217da78f21bc8f/23_spades/scaffolds.fasta 23_scaffolds.fasta
+quast.py 23_scaffolds.fasta 210_scaffolds.fasta
+*/
